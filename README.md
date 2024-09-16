@@ -6,22 +6,10 @@ Bem-vindo ao meu repositório de estudos sobre PHP e Laravel! 🎓
 
 Este repositório foi criado com o objetivo de documentar e compartilhar meu progresso no aprendizado de PHP e Laravel, desde os conceitos básicos até os mais avançados. Durante esse processo, eu estarei estudando, experimentando e desenvolvendo projetos utilizando essas tecnologias.
 
-## Estrutura do Repositório
-
-Conforme eu avanço no meu aprendizado, novas pastas e arquivos serão adicionados ao repositório. Aqui está uma visão geral de como estou organizando o conteúdo:
-
-- **`php-basics/`**: Conceitos fundamentais de PHP, como variáveis, loops, arrays, funções e orientação a objetos.
-- **`laravel-intro/`**: Introdução ao framework Laravel, primeiros projetos, configuração de ambiente e fundamentos.
-- **(mais tópicos serão adicionados à medida que os estudos avançam)**
-
 ## Tecnologias Utilizadas
 
 - **PHP** (atualmente estudando a versão 8.x)
 - **Laravel** (a partir da versão 10.x)
-- **Composer**: Para gerenciamento de dependências
-- **MySQL**: Banco de dados relacional
-- **Docker**: Ambiente de desenvolvimento containerizado
-- **DBeaver**: Gerenciamento visual do banco de dados
 
 ## Objetivos
 
