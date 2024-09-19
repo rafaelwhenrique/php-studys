@@ -105,3 +105,36 @@ echo match ("carne de panela!") {
     default => "nada acontece, mas carne de panela é a melhor comida que tem" . PHP_EOL
 };
 
+// Se eu fizesse isso com if/else if eu demoraria no minimo 10min.
+$idade = 21;
+$result = match (true) {
+    $idade >= 70 => 'idoso',
+    $idade >= 31 => 'adulto',
+    $idade >= 20 => 'jovem-adulto' . PHP_EOL,
+    $idade >= 16 => 'jovem',
+    default => 'criança'
+};
+
+echo $result;
+
+//ternário 
+
+$cash = 450;
+$shop = $cash >= 350 ? 'Dale pae, vamo ali comprar um tênis' . PHP_EOL : 'Vish mano, trampa mais aí dog' . PHP_EOL;
+echo $shop;
+
+// exemplo False
+$nickname = 'r1prafael';
+$who = $nickname == 'riprafael_' ? 'Segue nos aí' : 'Vish mano, esse id nem existe!' . PHP_EOL;
+echo $who;
+
+/* 
+                                        NOTAS 
+
+O operador de coalescência nula (**??**) fornece um conveniente de retornar o valor antes do sinal de **??** o valor exista e não seja **NULL** ou retorna o valorsinal de **??**.
+
+É especialmente útil quando queremos retornar um valor padrão caso uma chave não exista em um array associativo, pois é um ótimo substituto para o operador ternário ou uma estrutura de if/else nesses casos.
+
+[Link para documentação](https://www.php.net/manual/pt_BR/language.operators.comparison.php#language.operators.comparison.coalesce)
+
+*/
