@@ -23,6 +23,8 @@ for ($i = 5; $i >= $decremento; $i--) {
     echo $i . "...";
 }
 
+
+
 // WHILE
 echo PHP_EOL . "utilizando o while:" . PHP_EOL;
 $soma = 3;
@@ -67,33 +69,63 @@ foreach ($user as $key => $value) {
     echo "$key: $value" . PHP_EOL;
 }
 
+$users = [
+    [
+        "name" => "jorgin",
+        "age" => 45,
+        "employed" => false
+    ],
+    [
+        "name" => "joelza",
+        "age" => 32,
+        "employed" => true
+    ],
+    [
+        "name" => "kleiton",
+        "age" => 21,
+        "employed" => false
+    ],
+    [
+        "name" => "edmundo",
+        "age" => 90,
+        "employed" => true
+    ],
+
+];
+
+foreach($users as $key => $value) {
+    echo $key . " " . $value['name'] . ",";
+}
+
+echo "" . PHP_EOL;
+
 //Controlando repetições - continue
 
-for($numero = 0; $numero < 10; $numero++) {
-    if($numero % 2 === 1) {
+for ($numero = 0; $numero < 10; $numero++) {    
+    if ($numero % 2 === 1) {
         continue;
     }
     echo $numero . " é par, ";
 }
 
-//loops infinitos, s=0 sai se acessar o bloco break
-while(true){
-    echo "entrou e ligou o carro, seu carro imediatamente: FALA MORENO, PARA ONDE VAMOS HOJE?"  . PHP_EOL;
+//loops infinitos, input = 0 sai do programa se acessar o bloco break
+while (true) {
+    echo "entrou e ligou o carro, seu carro imediatamente: FALA MORENO, PARA ONDE VAMOS HOJE?" . PHP_EOL;
     echo "1. Casa das prima" . PHP_EOL;
-    echo "2. f1 com os mlk". PHP_EOL;
+    echo "2. f1 com os mlk" . PHP_EOL;
     echo "3. sinuca dale" . PHP_EOL;
     echo "0. SAIR" . PHP_EOL;
-    
-    // Nota: a função readline, é apenas uma maneira de coletar a informação vinda de um usuario. 
-    $resposta = readline ('Digite uma opção entre 1,2,3,0: '); // digitei: 1
-    
-    if($resposta == '1') {
+
+    // Nota: a função readline, é apenas uma maneira de coletar a informação vinda de um usuario.
+    $resposta = readline('Digite uma opção entre 1,2,3,0: ');
+
+    if ($resposta == '1') {
         echo 'OK MORENO, VAMOS PARA CASA DAS PRIMA' . PHP_EOL;
-    } else if($resposta == '2') {
+    } else if ($resposta == '2') {
         echo 'Boa meu nobre, os de vdd eu sei quem são' . PHP_EOL;
     } else if ($resposta == '3') {
-        echo 'sinuquinha valendo o boné' . PHP_EOL;;
-    }else if($resposta == '0') {
+        echo 'sinuquinha valendo o boné' . PHP_EOL;
+    } else if ($resposta == '0') {
         echo 'closing the program...' . PHP_EOL;
         break;
     }
