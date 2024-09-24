@@ -8,10 +8,10 @@ Os exemplos utilizados, como "drogas" e "tráfico", foram escolhidos exclusivame
 Este conteúdo é puramente educacional e não reflete, de forma alguma, apoio ou incentivo a atividades ilegais. O objetivo é estudar a estrutura de classes, métodos e lógica de programação usando cenários fictícios e irreais.
 
 # Objetivos
-Praticar a criação de classes e objetos em PHP.  
-Aplicar conceitos de encapsulamento, métodos e propriedades.  
-Abstrair cenários complexos do mundo real para exemplos práticos no código.  
-Melhorar a capacidade de resolução de problemas e implementação de lógica.
+1. Praticar a criação de classes e objetos em PHP.  
+2. Aplicar conceitos de encapsulamento, métodos e propriedades.  
+3. Abstrair cenários complexos do mundo real para exemplos práticos no código.  
+4. Melhorar a capacidade de resolução de problemas e implementação de lógica.
 
 # Estrutura do Projeto
 user.php - Classe User representa um usuário em um cenário fictício.  
