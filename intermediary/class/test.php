@@ -21,3 +21,5 @@ if ($riprafael->canBuy($prensado)) {
 } else {
     echo $riprafael->username . ', caraio tiozão, com isso daí só da pra comprar o ' . $lolo->getDrug() . ' num fode né!' . PHP_EOL;
 }
+
+unset($riprafael);

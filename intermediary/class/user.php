@@ -23,4 +23,9 @@ class User
         return $this->money;
     }
 
+    public function __destruct()
+    {
+        echo "Login do usuário " . $this->username . " encerrada";
+    }
+
 }
