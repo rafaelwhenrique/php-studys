@@ -1,6 +1,6 @@
-# Repositório de Estudos: PHP e Laravel
+# Repositório de Estudos: PHP 
 
-Bem-vindo ao meu repositório de estudos sobre PHP e Laravel! 🎓
+Bem-vindo ao meu repositório de estudos sobre PHP! 🎓
 
 ## Sobre o Projeto
 
